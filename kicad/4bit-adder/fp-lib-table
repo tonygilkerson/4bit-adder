@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SR11_5V_200_2C") (type "KiCad") (uri "${KIPRJMOD}/SR11_5V_200_2C") (options "") (descr ""))
+)
