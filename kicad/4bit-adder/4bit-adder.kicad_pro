@@ -626,6 +626,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -676,7 +682,7 @@
         "uuid": "43282da0-8fd8-4964-a1d7-562bab4450bf"
       }
     ],
-    "used_designators": "K1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
