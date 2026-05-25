@@ -217,6 +217,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -558,6 +735,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4003"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4003"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4003_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4003_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4007"
 			(pin_numbers
 				(hide yes)
@@ -728,146 +1092,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_1_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1251,7 +1475,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -7.62 0)
+					(at 10.16 -7.62 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1269,7 +1493,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -7.62 180)
+					(at -10.16 -7.62 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -2444,7 +2668,7 @@
 	)
 	(text "XOR Gate"
 		(exclude_from_sim yes)
-		(at 157.48 104.14 0)
+		(at 157.48 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2525,10 +2749,64 @@
 		(uuid "042127d0-552f-47ec-95de-3d837555d017")
 	)
 	(junction
+		(at 25.4 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05fc0a0a-802c-4b74-b99b-cdbdcd163788")
+	)
+	(junction
+		(at 66.04 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06c75cbd-96d3-4d8c-9252-0611aae4198b")
+	)
+	(junction
+		(at 105.41 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ae29c84-710a-4836-9779-99f9356e9fa1")
+	)
+	(junction
+		(at 194.31 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d92a55e-1091-442f-bac3-567958bf6755")
+	)
+	(junction
+		(at 191.77 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ddee9a0-4a4c-4972-939e-569a40f5b124")
+	)
+	(junction
+		(at 196.85 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e9cb48f-25b5-40ff-993d-ef4914e854ae")
+	)
+	(junction
 		(at 15.24 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1035739f-c1dc-4d29-85ca-42418fdfefd8")
+	)
+	(junction
+		(at 25.4 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1145ce98-e489-4f3e-942f-286045d701f7")
+	)
+	(junction
+		(at 196.85 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13801077-058f-4372-8fa5-9eff449c6d81")
+	)
+	(junction
+		(at 25.4 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16bb9882-036b-4b54-a3fb-8450448addbb")
 	)
 	(junction
 		(at 92.71 123.19)
@@ -2537,10 +2815,16 @@
 		(uuid "18360006-1d95-4ea3-abbc-0b6e991db705")
 	)
 	(junction
-		(at 172.72 76.2)
+		(at 45.72 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ae7ad2a-acf8-4286-8dc9-9c6c3e32c9f9")
+		(uuid "1ca3cc66-58c2-41b2-83a1-97089bc51c1a")
+	)
+	(junction
+		(at 45.72 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ee5f48b-a94f-4817-a588-8a79146c5f60")
 	)
 	(junction
 		(at 91.44 118.11)
@@ -2549,16 +2833,40 @@
 		(uuid "1f11067c-9db8-4441-9a8f-01d743095247")
 	)
 	(junction
+		(at 105.41 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23038e25-03f9-4242-b35f-a6153fe9920c")
+	)
+	(junction
+		(at 170.18 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "234d6ba4-8114-40eb-b912-960619040a68")
+	)
+	(junction
 		(at 92.71 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "294cf7b6-25c7-4080-92d0-39ca5f7c7357")
 	)
 	(junction
-		(at 196.85 62.23)
+		(at 105.41 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34ed4839-5c37-4597-aadb-ae7b245351db")
+		(uuid "2a1323d0-6026-4c3a-b1ed-df25ce92e605")
+	)
+	(junction
+		(at 66.04 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a832861-590b-4c18-a114-3afae81ffd23")
+	)
+	(junction
+		(at 25.4 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e530e5a-4142-4e7d-991e-b2675f16bee9")
 	)
 	(junction
 		(at 90.17 72.39)
@@ -2573,6 +2881,18 @@
 		(uuid "37655b5b-bb6d-489b-8932-ac5f1480de3e")
 	)
 	(junction
+		(at 105.41 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37e0e5eb-5113-4ac6-855e-f33814bb2ac4")
+	)
+	(junction
+		(at 86.36 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37fd8da0-aad4-46df-982f-0ae3e38414ac")
+	)
+	(junction
 		(at 52.07 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2585,10 +2905,58 @@
 		(uuid "3bbef427-76c1-4dc6-89b8-1f5d90014c77")
 	)
 	(junction
+		(at 105.41 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "402af85c-2513-4c58-9b7d-94663dfc1532")
+	)
+	(junction
+		(at 125.73 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4042ec93-9c4f-4dc3-aa8d-5acb7d80d209")
+	)
+	(junction
 		(at 50.8 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4116afba-d46e-4714-9f7f-f5ecb8770657")
+	)
+	(junction
+		(at 86.36 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42655ae2-d5ec-401d-b700-ee8631353985")
+	)
+	(junction
+		(at 105.41 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44c89b51-72fe-4eb4-8a45-f6df2a684408")
+	)
+	(junction
+		(at 45.72 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "481f2503-2fa7-4124-aeec-7f8d482aa5a2")
+	)
+	(junction
+		(at 167.64 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48e84944-9d68-43c3-8a73-3a0b526879c4")
+	)
+	(junction
+		(at 187.96 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ac7adee-b259-4525-8aa6-22f9eba2b45c")
+	)
+	(junction
+		(at 66.04 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bce107b-c13a-476b-81a6-e87050fdef12")
 	)
 	(junction
 		(at 49.53 36.83)
@@ -2597,10 +2965,40 @@
 		(uuid "4d887b16-b80d-4835-a901-50bd4a536a19")
 	)
 	(junction
+		(at 147.32 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51897d15-46a4-4e1c-b6e5-0c49c3afe714")
+	)
+	(junction
 		(at 49.53 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55616794-5ee0-472f-b160-3be7f6d9fd7b")
+	)
+	(junction
+		(at 190.5 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56cd33f0-b983-4f8a-ac58-68fb7786aba6")
+	)
+	(junction
+		(at 86.36 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57e613ba-0847-4fac-9873-2685de51eafe")
+	)
+	(junction
+		(at 172.72 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5efa4ff9-fd50-45ab-ba18-51e1faf05079")
+	)
+	(junction
+		(at 25.4 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "622a2e2d-4eda-4d69-9cee-e3153805edde")
 	)
 	(junction
 		(at 50.8 53.34)
@@ -2615,22 +3013,40 @@
 		(uuid "69067cc4-3eda-4c84-83bb-08219cf642fc")
 	)
 	(junction
-		(at 170.18 71.12)
+		(at 45.72 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a72c641-6c1b-4ba5-a36b-8c1666b85e49")
+		(uuid "7561eb9e-1b3d-4a53-8171-d53082caa6c1")
 	)
 	(junction
-		(at 196.85 91.44)
+		(at 86.36 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7cea4b96-76c4-4987-a9c6-693a52a0b2d2")
+		(uuid "79e11d0b-0aa3-421c-a84e-f20ae3a4d0b7")
 	)
 	(junction
-		(at 191.77 91.44)
+		(at 66.04 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "87397b65-b64a-4b40-9871-b96add23f6e1")
+		(uuid "7a36f8b8-0f0f-4237-9ae0-73c2c23a026b")
+	)
+	(junction
+		(at 167.64 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c6d2739-0c1b-407b-bbf1-255f177ad1ef")
+	)
+	(junction
+		(at 125.73 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81ed2f5f-fa0d-4bad-808f-b46058d66260")
+	)
+	(junction
+		(at 167.64 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "828071ca-5198-4d34-9d3a-009ce8580b95")
 	)
 	(junction
 		(at 52.07 123.19)
@@ -2639,10 +3055,46 @@
 		(uuid "8831d829-f82c-4164-a0aa-80ab497edd7d")
 	)
 	(junction
+		(at 66.04 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89813f39-1c02-4b10-990a-23309f2f61e9")
+	)
+	(junction
+		(at 125.73 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89d88b90-4d92-46d3-9c70-a4e1f30fa603")
+	)
+	(junction
+		(at 194.31 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e58a171-362d-4b27-82aa-07532eb3ee5f")
+	)
+	(junction
 		(at 90.17 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f64e07b-349e-4dd8-9f2c-27a6f3c24c89")
+	)
+	(junction
+		(at 66.04 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "938f9154-46e1-4b66-99c0-09303a8b1796")
+	)
+	(junction
+		(at 45.72 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "952362af-3d84-4e4f-886c-d2e4965a036b")
+	)
+	(junction
+		(at 25.4 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "978553b1-0d65-41d6-abcc-ef4b600298f3")
 	)
 	(junction
 		(at 15.24 83.82)
@@ -2657,10 +3109,22 @@
 		(uuid "9a7b65ff-f3b0-4e19-bbdd-e356db15bb02")
 	)
 	(junction
+		(at 25.4 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f14363e-702f-44cc-9987-069d242a6926")
+	)
+	(junction
 		(at 50.8 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3547971-3037-41ab-bc6f-cd74d62bbfb0")
+	)
+	(junction
+		(at 66.04 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3c07d4f-d083-4ab2-ab16-11622284a6e1")
 	)
 	(junction
 		(at 129.54 95.25)
@@ -2669,10 +3133,22 @@
 		(uuid "a3fa6e97-0e38-4a22-80b1-1dbf54d6b0bb")
 	)
 	(junction
-		(at 194.31 62.23)
+		(at 86.36 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a67f9679-c39a-4f7d-a9e1-1bf688d6b115")
+		(uuid "a51430f9-ffc9-4689-bb0e-a67372f3325d")
+	)
+	(junction
+		(at 105.41 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a658dc60-354a-4be0-af7f-40453b4eeb52")
+	)
+	(junction
+		(at 200.66 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab0f2424-511c-4272-84ce-bb6216384852")
 	)
 	(junction
 		(at 52.07 100.33)
@@ -2687,10 +3163,28 @@
 		(uuid "acbe1383-087b-4a3f-820b-0321e166001e")
 	)
 	(junction
-		(at 191.77 62.23)
+		(at 45.72 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "be5aea58-984a-4cfc-80d5-846f5d8ba054")
+		(uuid "b00d54a5-a8d4-4a31-bebe-1f13f84d8cde")
+	)
+	(junction
+		(at 147.32 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5a18e84-359c-4b23-b6d2-3eb279e93f07")
+	)
+	(junction
+		(at 86.36 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9683a73-2a9b-4e08-9846-be0b0f227fef")
+	)
+	(junction
+		(at 86.36 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdc211b2-e19f-4bc1-96cd-b76e33d40cb3")
 	)
 	(junction
 		(at 129.54 72.39)
@@ -2699,22 +3193,40 @@
 		(uuid "c120611e-7c9e-43dc-ae12-bff88fa4e038")
 	)
 	(junction
+		(at 125.73 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4ba289a-47ae-44a4-b70a-45cddc1184f7")
+	)
+	(junction
+		(at 147.32 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7aabdc2-efb4-4fbd-95d7-7ecf10000159")
+	)
+	(junction
+		(at 45.72 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8e65bae-5a0f-4ddf-9ac4-db47d63b00a0")
+	)
+	(junction
 		(at 130.81 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc33c427-3257-418b-aef9-9a49d6e098ee")
 	)
 	(junction
+		(at 125.73 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfa6a889-f141-4b46-be80-f02923390fa1")
+	)
+	(junction
 		(at 130.81 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d680c5a6-3194-4347-9b95-58437d2f1b1f")
-	)
-	(junction
-		(at 194.31 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7bea923-ab34-42ee-bec1-87083f87a8c1")
 	)
 	(junction
 		(at 129.54 34.29)
@@ -2729,16 +3241,22 @@
 		(uuid "ddc4665d-babb-4336-a2b2-01aa029c23c9")
 	)
 	(junction
+		(at 191.77 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1409869-1333-4287-8c74-9271ae4f57f4")
+	)
+	(junction
 		(at 132.08 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4e2357b-abc7-48e7-8dc1-7deb517e685a")
 	)
 	(junction
-		(at 200.66 62.23)
+		(at 190.5 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6891bc5-0360-418b-aaa6-7a88758e54d3")
+		(uuid "e83c39b2-eea7-4a03-aa53-35c42367eca3")
 	)
 	(junction
 		(at 49.53 72.39)
@@ -2759,12 +3277,6 @@
 		(uuid "ef8695b9-dccf-4708-82c0-5133a68b2976")
 	)
 	(junction
-		(at 200.66 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f24c056b-e0be-40d3-b923-a06f2f2439d4")
-	)
-	(junction
 		(at 91.44 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2775,6 +3287,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f549c405-10ca-4565-819d-9b9a5b56b031")
+	)
+	(junction
+		(at 125.73 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fadb1ecb-4e4b-47c2-b888-9130011574f5")
+	)
+	(junction
+		(at 125.73 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc6e5ce1-d598-488e-ac2c-1dc838b036ef")
 	)
 	(junction
 		(at 95.25 81.28)
@@ -2795,7 +3319,7 @@
 		(uuid "08b82294-78da-46b2-9bdb-5d4e369813e1")
 	)
 	(no_connect
-		(at 167.64 109.22)
+		(at 167.64 110.49)
 		(uuid "09222ef9-1130-4695-863e-060230a99ac1")
 	)
 	(no_connect
@@ -2867,7 +3391,7 @@
 		(uuid "3cfba217-75bb-4e39-889c-9a99fc4af30d")
 	)
 	(no_connect
-		(at 167.64 119.38)
+		(at 167.64 120.65)
 		(uuid "41d00109-f304-4956-899a-5b36c1f69dca")
 	)
 	(no_connect
@@ -2923,8 +3447,12 @@
 		(uuid "6c0159f8-ebf4-4d98-85fc-ea950476789f")
 	)
 	(no_connect
-		(at 167.64 83.82)
+		(at 167.64 85.09)
 		(uuid "79313f05-85c5-439b-9c7f-2b634239c363")
+	)
+	(no_connect
+		(at 193.04 207.01)
+		(uuid "7a577249-c35c-48fa-896d-6d55826d9741")
 	)
 	(no_connect
 		(at 45.72 204.47)
@@ -2991,7 +3519,7 @@
 		(uuid "a5c77674-a057-4004-8f91-a975ec1f8997")
 	)
 	(no_connect
-		(at 167.64 88.9)
+		(at 167.64 90.17)
 		(uuid "a707f57f-cd26-4391-8632-0111c7e92838")
 	)
 	(no_connect
@@ -2999,7 +3527,7 @@
 		(uuid "a70fa297-c8f7-4c38-8cd9-0491f4f54363")
 	)
 	(no_connect
-		(at 167.64 114.3)
+		(at 167.64 115.57)
 		(uuid "a735dae3-d717-41ef-a3ad-7c38ab08b3cb")
 	)
 	(no_connect
@@ -3063,10 +3591,6 @@
 		(uuid "d28c7bb2-e4b8-428e-a392-6adbaff91a99")
 	)
 	(no_connect
-		(at 193.04 29.21)
-		(uuid "d5159179-ab06-487d-a245-4ce6c79aaee6")
-	)
-	(no_connect
 		(at 86.36 167.64)
 		(uuid "d773a2e1-6d13-407a-91f7-7f143825ce26")
 	)
@@ -3075,7 +3599,7 @@
 		(uuid "dac2eca2-c954-4471-9fb7-939b7e8aeb91")
 	)
 	(no_connect
-		(at 167.64 93.98)
+		(at 167.64 95.25)
 		(uuid "dbca7e22-776e-4185-ad8e-79880d8113bd")
 	)
 	(no_connect
@@ -3176,6 +3700,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 91.44) (xy 200.66 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046398e4-8ac8-4951-b2b9-d10a5272c35b")
+	)
+	(wire
+		(pts
 			(xy 50.8 53.34) (xy 180.34 53.34)
 		)
 		(stroke
@@ -3183,6 +3717,16 @@
 			(type default)
 		)
 		(uuid "04ac8e35-b402-469d-9840-d6a7a6929dfc")
+	)
+	(wire
+		(pts
+			(xy 191.77 62.23) (xy 194.31 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0515755f-e76a-4851-818c-72ea25caf026")
 	)
 	(wire
 		(pts
@@ -3226,6 +3770,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 100.33) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf949a7-92a3-44d0-94be-23223c5c0070")
+	)
+	(wire
+		(pts
 			(xy 105.41 135.89) (xy 102.87 135.89)
 		)
 		(stroke
@@ -3256,16 +3810,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 91.44) (xy 200.66 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10395c56-bf2e-4ca5-b349-dab826b44317")
-	)
-	(wire
-		(pts
 			(xy 125.73 172.72) (xy 130.81 172.72)
 		)
 		(stroke
@@ -3283,6 +3827,16 @@
 			(type default)
 		)
 		(uuid "129b2e74-36f0-4b53-922a-57cd3522ebb1")
+	)
+	(wire
+		(pts
+			(xy 66.04 77.47) (xy 72.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c53bde-44fd-40db-b273-cae1a0f36b4c")
 	)
 	(wire
 		(pts
@@ -3326,7 +3880,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 109.22) (xy 147.32 109.22)
+			(xy 193.04 222.25) (xy 190.5 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8c3ebe-2279-497e-8df0-57d7e93b6698")
+	)
+	(wire
+		(pts
+			(xy 146.05 110.49) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3376,7 +3940,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 144.78 83.82)
+			(xy 147.32 85.09) (xy 144.78 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3436,6 +4000,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 229.87) (xy 193.04 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268ccdb7-f538-4bb3-aa71-25164ec72c93")
+	)
+	(wire
+		(pts
 			(xy 86.36 118.11) (xy 91.44 118.11)
 		)
 		(stroke
@@ -3446,6 +4020,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 77.47) (xy 125.73 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c0c504-a32a-4970-8bff-5f72f7a438b9")
+	)
+	(wire
+		(pts
 			(xy 22.86 209.55) (xy 25.4 209.55)
 		)
 		(stroke
@@ -3453,6 +4037,16 @@
 			(type default)
 		)
 		(uuid "295e8cbb-aea3-4baa-9903-788a55c6c646")
+	)
+	(wire
+		(pts
+			(xy 147.32 76.2) (xy 153.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296ebb96-800d-46be-99ce-7a17465a3e4b")
 	)
 	(wire
 		(pts
@@ -3496,6 +4090,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 198.12) (xy 86.36 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e554c94-a407-42e6-b34a-d8abf6e7fd2b")
+	)
+	(wire
+		(pts
 			(xy 49.53 72.39) (xy 49.53 95.25)
 		)
 		(stroke
@@ -3536,16 +4140,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 124.46) (xy 167.64 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31af7197-614c-4522-aa67-e419c43fb1be")
-	)
-	(wire
-		(pts
 			(xy 76.2 52.07) (xy 91.44 52.07)
 		)
 		(stroke
@@ -3566,13 +4160,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 151.13) (xy 129.54 151.13)
+			(xy 119.38 123.19) (xy 125.73 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34e76e8f-2629-4cd8-88c1-e5a4124e8fe5")
+		(uuid "32becfca-a92c-46b7-8415-a264171fb927")
+	)
+	(wire
+		(pts
+			(xy 66.04 123.19) (xy 72.39 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33408324-f073-4383-be67-980f14a867ed")
 	)
 	(wire
 		(pts
@@ -3586,13 +4190,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 93.98) (xy 142.24 93.98)
+			(xy 147.32 95.25) (xy 142.24 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "365aefb8-b1ab-47b5-8b4b-b4927525c550")
+	)
+	(wire
+		(pts
+			(xy 119.38 100.33) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a99423-8af6-4b2a-8951-c934ba1a149b")
 	)
 	(wire
 		(pts
@@ -3613,6 +4227,16 @@
 			(type default)
 		)
 		(uuid "37c91a08-f2e0-4bc9-bd21-a7f64ac91a45")
+	)
+	(wire
+		(pts
+			(xy 196.85 91.44) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fa4873-8aef-4352-a0da-f7a1b14b8e6e")
 	)
 	(wire
 		(pts
@@ -3696,16 +4320,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 62.23) (xy 196.85 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d26964a-712a-43bc-9d18-27c5f9ea495c")
-	)
-	(wire
-		(pts
 			(xy 104.14 157.48) (xy 105.41 157.48)
 		)
 		(stroke
@@ -3756,6 +4370,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 77.47) (xy 86.36 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421eee86-5a37-4b76-aa21-548e57f79ec3")
+	)
+	(wire
+		(pts
 			(xy 25.4 167.64) (xy 22.86 167.64)
 		)
 		(stroke
@@ -3763,6 +4387,36 @@
 			(type default)
 		)
 		(uuid "427a0516-a969-4bbe-944f-0a7381841468")
+	)
+	(wire
+		(pts
+			(xy 39.37 100.33) (xy 45.72 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4296e787-9219-40b8-ab3c-bdcc774ccd92")
+	)
+	(wire
+		(pts
+			(xy 40.64 198.12) (xy 45.72 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4338acbe-59a5-44c6-aef6-e624a9a3d888")
+	)
+	(wire
+		(pts
+			(xy 39.37 151.13) (xy 45.72 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44882e9e-415d-4e04-9875-5ad8bf782396")
 	)
 	(wire
 		(pts
@@ -3776,6 +4430,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 151.13) (xy 111.76 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46634702-2bcb-4dfb-a364-be59a4363b00")
+	)
+	(wire
+		(pts
 			(xy 63.5 176.53) (xy 88.9 176.53)
 		)
 		(stroke
@@ -3786,13 +4450,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 29.21) (xy 200.66 62.23)
+			(xy 66.04 172.72) (xy 72.39 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4839c5c4-efd7-4fea-89e7-12fb1149b4df")
+		(uuid "48913744-718d-455a-9825-cc1321271ddf")
 	)
 	(wire
 		(pts
@@ -3803,16 +4467,6 @@
 			(type default)
 		)
 		(uuid "489c496b-46e8-4fce-9d26-b8c45adf9dbf")
-	)
-	(wire
-		(pts
-			(xy 142.24 93.98) (xy 142.24 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb42f97-d71e-4fdb-8cae-b992e4788453")
 	)
 	(wire
 		(pts
@@ -3833,6 +4487,16 @@
 			(type default)
 		)
 		(uuid "4e5b9736-7c30-4005-8490-b00b03e30e0b")
+	)
+	(wire
+		(pts
+			(xy 167.64 125.73) (xy 172.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1069f2-17a4-47dc-b9fe-fbf1fa6eab5a")
 	)
 	(wire
 		(pts
@@ -3896,6 +4560,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 219.71) (xy 125.73 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a8070f-cf00-493c-a056-c71ce388b44e")
+	)
+	(wire
+		(pts
 			(xy 45.72 172.72) (xy 50.8 172.72)
 		)
 		(stroke
@@ -3913,16 +4587,6 @@
 			(type default)
 		)
 		(uuid "5455d260-a7fd-4291-b0b0-7c76cf799288")
-	)
-	(wire
-		(pts
-			(xy 195.58 19.05) (xy 199.39 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54bfb07a-1b10-4d67-ab1d-afe67b6e7089")
 	)
 	(wire
 		(pts
@@ -3953,6 +4617,16 @@
 			(type default)
 		)
 		(uuid "57e87531-1ec5-44ad-8c62-b0146047d640")
+	)
+	(wire
+		(pts
+			(xy 190.5 222.25) (xy 190.5 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58510d11-61e3-415c-9799-dfe0d2c8857c")
 	)
 	(wire
 		(pts
@@ -4016,6 +4690,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 229.87) (xy 193.04 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5d3dbc-7bdb-46bc-bfd7-01b6b4218b5e")
+	)
+	(wire
+		(pts
 			(xy 45.72 100.33) (xy 52.07 100.33)
 		)
 		(stroke
@@ -4026,7 +4710,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 71.12) (xy 170.18 99.06)
+			(xy 170.18 71.12) (xy 170.18 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4053,6 +4737,26 @@
 			(type default)
 		)
 		(uuid "621c1997-75f3-4749-ac22-cda3882b26e0")
+	)
+	(wire
+		(pts
+			(xy 142.24 95.25) (xy 142.24 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622eb8eb-7511-41d8-9b6a-240616a8d8ab")
+	)
+	(wire
+		(pts
+			(xy 25.4 219.71) (xy 31.75 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fd1d7c-5f23-42b7-8986-172adefd02a9")
 	)
 	(wire
 		(pts
@@ -4093,6 +4797,16 @@
 			(type default)
 		)
 		(uuid "671252b8-b1d6-48a9-b589-695bf6dc034d")
+	)
+	(wire
+		(pts
+			(xy 147.32 125.73) (xy 153.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67578711-11f6-4e41-8471-1bc674c6ba60")
 	)
 	(wire
 		(pts
@@ -4356,7 +5070,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 146.05 88.9)
+			(xy 147.32 90.17) (xy 146.05 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4373,6 +5087,16 @@
 			(type default)
 		)
 		(uuid "87b5599c-9d79-46aa-bc66-6af1c0ffc123")
+	)
+	(wire
+		(pts
+			(xy 66.04 151.13) (xy 72.39 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89aa81fb-ad23-4a06-ac47-d6e4da0dd321")
 	)
 	(wire
 		(pts
@@ -4406,6 +5130,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 123.19) (xy 52.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ceec07f-e694-462d-9508-f88ebe030e7e")
+	)
+	(wire
+		(pts
 			(xy 191.77 46.99) (xy 191.77 35.56)
 		)
 		(stroke
@@ -4423,6 +5157,26 @@
 			(type default)
 		)
 		(uuid "8e41370e-e930-4733-a1cc-84536a86aaad")
+	)
+	(wire
+		(pts
+			(xy 105.41 77.47) (xy 111.76 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4bec98-3963-4545-9bf7-0e3644c6e7fb")
+	)
+	(wire
+		(pts
+			(xy 193.04 227.33) (xy 195.58 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e84a80-cb38-4c82-9cf6-4170668c5ae0")
 	)
 	(wire
 		(pts
@@ -4466,13 +5220,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 76.2) (xy 172.72 124.46)
+			(xy 172.72 76.2) (xy 172.72 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "97c3a156-90fe-4c34-a8d6-a707482da6f0")
+	)
+	(wire
+		(pts
+			(xy 161.29 125.73) (xy 167.64 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e2bfa4-dd85-4635-b178-da77e7b1defd")
 	)
 	(wire
 		(pts
@@ -4486,7 +5250,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 99.06) (xy 167.64 99.06)
+			(xy 170.18 100.33) (xy 167.64 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4546,6 +5310,26 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 77.47) (xy 31.75 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf0f33f-cd29-4b63-ad58-c075a9166a6b")
+	)
+	(wire
+		(pts
+			(xy 39.37 219.71) (xy 45.72 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4f0aa3-6f9f-4ad6-bd4c-cbd256ac47b8")
+	)
+	(wire
+		(pts
 			(xy 50.8 232.41) (xy 50.8 241.3)
 		)
 		(stroke
@@ -4553,6 +5337,36 @@
 			(type default)
 		)
 		(uuid "9e63114b-11dc-48b4-a147-912f480b703b")
+	)
+	(wire
+		(pts
+			(xy 80.01 172.72) (xy 86.36 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee930bc-52f6-4b2d-bd58-913ab819ff3a")
+	)
+	(wire
+		(pts
+			(xy 25.4 123.19) (xy 31.75 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7d4e09-11c7-4057-85a8-6e65d56db2d3")
+	)
+	(wire
+		(pts
+			(xy 187.96 207.01) (xy 187.96 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1928581-e6b4-43be-bf88-add4af47d0e3")
 	)
 	(wire
 		(pts
@@ -4573,6 +5387,16 @@
 			(type default)
 		)
 		(uuid "a2493575-61b3-4b22-8161-3d5c9a2c8134")
+	)
+	(wire
+		(pts
+			(xy 194.31 91.44) (xy 196.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a276cdb3-c10a-4dc1-b5c2-4653bfab5d51")
 	)
 	(wire
 		(pts
@@ -4646,6 +5470,26 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 172.72) (xy 31.75 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f4d826-f366-4000-9421-5e0237babbf8")
+	)
+	(wire
+		(pts
+			(xy 125.73 151.13) (xy 129.54 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a739c4e6-ff84-4d19-97e0-b3c4f23e8e6c")
+	)
+	(wire
+		(pts
 			(xy 22.86 167.64) (xy 22.86 176.53)
 		)
 		(stroke
@@ -4656,6 +5500,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 198.12) (xy 72.39 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93942d5-4901-4cc2-a356-62733df24e71")
+	)
+	(wire
+		(pts
 			(xy 83.82 17.78) (xy 92.71 17.78)
 		)
 		(stroke
@@ -4663,16 +5517,6 @@
 			(type default)
 		)
 		(uuid "aa04a86d-ab89-40cc-b52d-42fd97616e58")
-	)
-	(wire
-		(pts
-			(xy 191.77 62.23) (xy 194.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa8e4dfe-b292-4c66-a5d2-2866983a0dea")
 	)
 	(wire
 		(pts
@@ -4706,6 +5550,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 172.72) (xy 45.72 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae36d743-832a-4316-83e1-d1ce0b32bdb9")
+	)
+	(wire
+		(pts
 			(xy 102.87 214.63) (xy 102.87 232.41)
 		)
 		(stroke
@@ -4713,6 +5567,16 @@
 			(type default)
 		)
 		(uuid "ae90db90-9c78-4967-bdce-36bd907275a2")
+	)
+	(wire
+		(pts
+			(xy 161.29 76.2) (xy 167.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b075b2c6-8462-4e8f-ae13-753b0cd2834a")
 	)
 	(wire
 		(pts
@@ -4736,6 +5600,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 198.12) (xy 33.02 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26b198c-c8ec-477d-a53c-ee955c28722c")
+	)
+	(wire
+		(pts
 			(xy 22.86 182.88) (xy 22.86 209.55)
 		)
 		(stroke
@@ -4743,6 +5617,26 @@
 			(type default)
 		)
 		(uuid "b2c0f94a-55ab-495b-ab10-8c712a4505e9")
+	)
+	(wire
+		(pts
+			(xy 119.38 172.72) (xy 125.73 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36ff77a-1b48-410b-b86d-26dcefdf5e6f")
+	)
+	(wire
+		(pts
+			(xy 25.4 100.33) (xy 31.75 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b6b25b-d6a1-4231-b663-55c8b0be18a5")
 	)
 	(wire
 		(pts
@@ -4766,13 +5660,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 123.19) (xy 52.07 123.19)
+			(xy 105.41 123.19) (xy 111.76 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5d1ae1c-4d99-480f-910f-68fb69a82807")
+		(uuid "b52b54bf-4af5-4718-8630-1f000af9c820")
+	)
+	(wire
+		(pts
+			(xy 191.77 91.44) (xy 194.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5972d1d-992f-458c-8bf1-86458e21b733")
 	)
 	(wire
 		(pts
@@ -4806,13 +5710,43 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 91.44) (xy 196.85 91.44)
+			(xy 194.31 62.23) (xy 196.85 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7c8de99-91b2-4a33-a47c-da7b5a456092")
+		(uuid "b76a533a-b035-45b7-a491-29f250a3e914")
+	)
+	(wire
+		(pts
+			(xy 119.38 198.12) (xy 125.73 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1ce9c3-4ab5-425f-a7c7-778354efcc80")
+	)
+	(wire
+		(pts
+			(xy 119.38 151.13) (xy 125.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad590a6-12af-4a1f-8878-72f81b3ac90c")
+	)
+	(wire
+		(pts
+			(xy 80.01 151.13) (xy 86.36 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc339595-bfa1-45a3-9ed5-69293945b6df")
 	)
 	(wire
 		(pts
@@ -4823,6 +5757,26 @@
 			(type default)
 		)
 		(uuid "bcc5a36e-95e0-4ef7-a46b-4c32052370b1")
+	)
+	(wire
+		(pts
+			(xy 39.37 123.19) (xy 45.72 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce6f908-0805-421d-809b-4d45b754a892")
+	)
+	(wire
+		(pts
+			(xy 80.01 219.71) (xy 86.36 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0fd691-9b37-4f11-b5e1-a780bfec5c9f")
 	)
 	(wire
 		(pts
@@ -4866,7 +5820,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 147.32 114.3)
+			(xy 105.41 100.33) (xy 111.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c059ff1f-56c4-4c67-bc41-8840f63f083b")
+	)
+	(wire
+		(pts
+			(xy 144.78 115.57) (xy 147.32 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4946,6 +5910,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 77.47) (xy 45.72 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83c39a9-cc0f-434b-a10c-5322563cdb54")
+	)
+	(wire
+		(pts
 			(xy 76.2 232.41) (xy 76.2 241.3)
 		)
 		(stroke
@@ -4966,7 +5940,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 83.82) (xy 144.78 114.3)
+			(xy 144.78 85.09) (xy 144.78 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4983,6 +5957,16 @@
 			(type default)
 		)
 		(uuid "d17ceb92-1f53-4096-a0de-6e19df2c68d5")
+	)
+	(wire
+		(pts
+			(xy 195.58 224.79) (xy 193.04 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17e6bd0-2366-4341-bffa-918c5ebe4a3e")
 	)
 	(wire
 		(pts
@@ -5033,6 +6017,16 @@
 			(type default)
 		)
 		(uuid "d9e12edc-bc5b-45c4-9a69-ef0b0bbd83c8")
+	)
+	(wire
+		(pts
+			(xy 105.41 172.72) (xy 111.76 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4656d1-f00c-4834-a3c8-3e7295bce214")
 	)
 	(wire
 		(pts
@@ -5096,6 +6090,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 100.33) (xy 167.64 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff5ae2e-c04f-42d5-b56c-8fda742d5aa4")
+	)
+	(wire
+		(pts
 			(xy 132.08 100.33) (xy 132.08 123.19)
 		)
 		(stroke
@@ -5126,13 +6130,33 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 88.9) (xy 146.05 109.22)
+			(xy 146.05 90.17) (xy 146.05 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e3873c81-7908-42f6-92c5-00b758998430")
+	)
+	(wire
+		(pts
+			(xy 66.04 219.71) (xy 72.39 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d6a2e3-21ee-42eb-8429-1beba553777f")
+	)
+	(wire
+		(pts
+			(xy 147.32 100.33) (xy 153.67 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4380ea8-ca36-40d4-ad23-d80f6ef15884")
 	)
 	(wire
 		(pts
@@ -5146,6 +6170,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 203.2) (xy 200.66 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e584de07-db2d-49a2-9211-6d6457adab3a")
+	)
+	(wire
+		(pts
 			(xy 92.71 100.33) (xy 92.71 123.19)
 		)
 		(stroke
@@ -5153,6 +6187,16 @@
 			(type default)
 		)
 		(uuid "e5a9e283-aa7d-4080-986e-3096f3c22ffb")
+	)
+	(wire
+		(pts
+			(xy 25.4 151.13) (xy 31.75 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6729a83-a0bb-4d31-bdb0-8bee18750337")
 	)
 	(wire
 		(pts
@@ -5186,16 +6230,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 29.21) (xy 200.66 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec23a11e-769e-47f9-9392-a96ee20c9429")
-	)
-	(wire
-		(pts
 			(xy 52.07 123.19) (xy 52.07 219.71)
 		)
 		(stroke
@@ -5203,6 +6237,16 @@
 			(type default)
 		)
 		(uuid "ef919402-93c9-4c80-bf3f-42455f4c0955")
+	)
+	(wire
+		(pts
+			(xy 196.85 62.23) (xy 200.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9e1b95-b178-4d6c-87eb-1f62795b01d9")
 	)
 	(wire
 		(pts
@@ -5236,6 +6280,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 224.79) (xy 193.04 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0314ad9-1260-4bf5-bbd2-1b02e737f60f")
+	)
+	(wire
+		(pts
 			(xy 45.72 219.71) (xy 52.07 219.71)
 		)
 		(stroke
@@ -5253,6 +6307,16 @@
 			(type default)
 		)
 		(uuid "f1ac327e-8880-458c-8a80-3435fbb5b426")
+	)
+	(wire
+		(pts
+			(xy 105.41 198.12) (xy 111.76 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39ac947-7094-471d-9e19-4fb80dd35954")
 	)
 	(wire
 		(pts
@@ -5296,13 +6360,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 91.44) (xy 194.31 91.44)
+			(xy 105.41 219.71) (xy 111.76 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5f1b3a3-904b-4e53-814d-236bec0fa30b")
+		(uuid "f5fa218b-d6dc-4a2b-8d31-365ef33cf81d")
+	)
+	(wire
+		(pts
+			(xy 81.28 100.33) (xy 86.36 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96f43b5-bc03-48e7-9088-952910aaed48")
 	)
 	(wire
 		(pts
@@ -5356,16 +6430,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 62.23) (xy 196.85 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe02ab34-637b-4e38-9c94-d3dd557754b9")
-	)
-	(wire
-		(pts
 			(xy 91.44 52.07) (xy 181.61 52.07)
 		)
 		(stroke
@@ -5373,6 +6437,16 @@
 			(type default)
 		)
 		(uuid "ff1eaa6a-16f9-4a94-93b9-4f3658bfa5ad")
+	)
+	(wire
+		(pts
+			(xy 80.01 123.19) (xy 86.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4e7025-89c2-4f5c-8a71-6fea04a50d47")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5880,7 +6954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 114.3 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5973,7 +7047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 38.1 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -6066,7 +7140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 88.9 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -6238,7 +7312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 34.29 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6855,7 +7929,214 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
+		(lib_id "Diode:1N4003")
+		(at 115.57 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19a36f6c-27d8-4969-8296-5c2dfcbaa1d7")
+		(property "Reference" "D31"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 115.57 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 115.57 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 115.57 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 115.57 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7b11e2e-933f-4f0a-b0d0-c8616e779454")
+		)
+		(pin "2"
+			(uuid "e8048342-0918-40f1-a756-8b6875ee8fb3")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 115.57 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bed1286-b067-4676-b061-828e75fe7ce9")
+		(property "Reference" "D30"
+			(at 115.57 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 115.57 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 115.57 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a8c4b80-b05a-4cc6-aa54-82c238727600")
+		)
+		(pin "2"
+			(uuid "c49d7144-9af0-480d-ae0a-a612f2b033b5")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 30.48 41.91 270)
 		(unit 1)
@@ -6937,7 +8218,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 166.37 143.51 0)
+		(at 190.5 229.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6945,10 +8226,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ea2af56-4998-44d3-87ce-b3abd86529e0")
 		(property "Reference" "#FLG02"
-			(at 166.37 141.605 0)
+			(at 188.595 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6959,7 +8239,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 166.37 138.43 0)
+			(at 183.134 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6969,7 +8249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 143.51 0)
+			(at 190.5 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6980,7 +8260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 143.51 0)
+			(at 190.5 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6991,7 +8271,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 166.37 143.51 0)
+			(at 190.5 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7014,8 +8294,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4003")
+		(at 36.83 198.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2026b5f6-a532-41bc-94f4-9ced0dbbb047")
+		(property "Reference" "D37"
+			(at 36.83 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 36.83 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 36.83 193.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 36.83 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 36.83 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 36.83 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 36.83 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1773bfd8-06e5-49c7-9556-72052376d94c")
+		)
+		(pin "2"
+			(uuid "5c51b426-da77-4a6b-b905-5e4921e1693b")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DIP_x04")
-		(at 191.77 83.82 270)
+		(at 194.31 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7025,7 +8409,7 @@
 		(dnp no)
 		(uuid "227d3427-03f3-4794-9489-7da1717d9739")
 		(property "Reference" "SW4"
-			(at 200.66 82.5499 90)
+			(at 185.42 85.0901 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7037,7 +8421,7 @@
 			)
 		)
 		(property "Value" "B"
-			(at 184.912 84.074 90)
+			(at 186.182 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7048,7 +8432,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx04_Piano_10.8x11.72mm_W7.62mm_P2.54mm"
-			(at 191.77 83.82 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,7 +8443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 83.82 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7070,7 +8454,7 @@
 			)
 		)
 		(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 191.77 83.82 0)
+			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7147,7 +8531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 63.5 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -7530,7 +8914,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 199.39 13.97 90)
+		(at 200.66 224.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7541,7 +8925,7 @@
 		(fields_autoplaced yes)
 		(uuid "28e63ec1-8132-4cf7-b76f-67f379526041")
 		(property "Reference" "J1"
-			(at 199.3899 11.43 0)
+			(at 203.2 224.7899 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7553,7 +8937,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 200.6599 11.43 0)
+			(at 203.2 226.0599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7565,7 +8949,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 199.39 13.97 0)
+			(at 200.66 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7576,7 +8960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 13.97 0)
+			(at 200.66 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7587,7 +8971,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 199.39 13.97 0)
+			(at 200.66 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,7 +9235,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 72.39 17.78 270)
 		(unit 1)
@@ -7926,6 +9309,110 @@
 			(project "4bit-adder"
 				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 35.56 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "326e3b37-dae1-43c4-9a60-efbc8ea41be7")
+		(property "Reference" "D46"
+			(at 35.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 35.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 35.56 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 35.56 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 35.56 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 35.56 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ee009c3-9e71-4c26-961a-549e24beea5a")
+		)
+		(pin "2"
+			(uuid "f49920d5-f2cf-43db-9d60-5a0d5a7e3340")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -8204,7 +9691,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 50.8 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -8343,6 +9830,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4003")
+		(at 35.56 172.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3654515a-355f-47b7-aac3-160406b82939")
+		(property "Reference" "D40"
+			(at 35.56 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 35.56 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 35.56 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 35.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 35.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 35.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a12f12db-6199-48ba-97b4-39dfa14b1548")
+		)
+		(pin "2"
+			(uuid "a7737661-127d-438a-b754-9970846d2286")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 105.41 100.33 180)
 		(unit 1)
@@ -8442,7 +10033,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4001"
 			(at 99.06 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8518,6 +10109,214 @@
 			(project "4bit-adder"
 				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 76.2 151.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43410e01-2d77-413b-a658-29f2fdf6fad6")
+		(property "Reference" "D41"
+			(at 76.2 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 76.2 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 76.2 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 76.2 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 76.2 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59340c36-711a-44d4-b929-b8e8aec62b20")
+		)
+		(pin "2"
+			(uuid "09a88131-8068-49ad-83d3-289c0c5ecdcd")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 76.2 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4400bb0e-3c73-4a4a-8fd7-5ea701693ddc")
+		(property "Reference" "D44"
+			(at 76.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 76.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 76.2 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 76.2 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 76.2 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69888eea-c379-40b9-83ec-72cce81afc17")
+		)
+		(pin "2"
+			(uuid "bb4cbc76-88f8-42ba-aed1-2fe82e51ff4b")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -8679,7 +10478,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 110.49 17.78 270)
 		(unit 1)
@@ -8760,8 +10558,216 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4003")
+		(at 35.56 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47f4c936-3a1c-4948-adf0-dd030154c532")
+		(property "Reference" "D43"
+			(at 35.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 35.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 35.56 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 35.56 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 35.56 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 35.56 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08d5ae46-65b1-4d4f-82fe-8cc0bb620dbb")
+		)
+		(pin "2"
+			(uuid "1914545e-c87f-4cd4-a45b-2bdfbecbddbd")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 157.48 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "486e37f5-fc38-4f1e-89bd-75ea654e86ac")
+		(property "Reference" "D27"
+			(at 157.48 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 157.48 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 157.48 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 157.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 157.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a211069-dcea-4893-b136-f7197721171d")
+		)
+		(pin "2"
+			(uuid "775762a7-f3f5-4a60-a14b-5496e9d5ecab")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 201.93 19.05 0)
+		(at 190.5 229.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8771,7 +10777,7 @@
 		(dnp no)
 		(uuid "490a2916-2d16-42a3-bb9a-59603e05c76f")
 		(property "Reference" "#PWR039"
-			(at 201.93 25.4 0)
+			(at 190.5 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8782,7 +10788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 22.606 0)
+			(at 190.5 233.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8792,7 +10798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 19.05 0)
+			(at 190.5 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8803,7 +10809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 19.05 0)
+			(at 190.5 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8814,7 +10820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 19.05 0)
+			(at 190.5 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8837,7 +10843,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 72.39 41.91 270)
 		(unit 1)
@@ -9236,8 +11241,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4003")
+		(at 76.2 172.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c33192b-a476-4da6-b609-93ab1f857f55")
+		(property "Reference" "D39"
+			(at 76.2 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 76.2 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 76.2 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 76.2 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 76.2 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af24ffa6-454b-46db-be72-75b711ca70fd")
+		)
+		(pin "2"
+			(uuid "28fec61a-c5ac-4e5a-8e8b-95bd706c23ea")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 147.32 124.46 0)
+		(at 147.32 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9248,7 +11357,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cead782-fb62-42b8-90fb-2c25a0590310")
 		(property "Reference" "#PWR020"
-			(at 147.32 130.81 0)
+			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9259,7 +11368,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 129.54 0)
+			(at 147.32 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9269,7 +11378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 124.46 0)
+			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9280,7 +11389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 124.46 0)
+			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9291,7 +11400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 124.46 0)
+			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9308,6 +11417,110 @@
 			(project "4bit-adder"
 				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 76.2 198.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d6df431-8b2a-43dd-889f-1c04caf63331")
+		(property "Reference" "D38"
+			(at 76.2 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 76.2 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 76.2 193.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 76.2 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 76.2 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc229606-6280-4524-b00d-aba79e8c3375")
+		)
+		(pin "2"
+			(uuid "6c16e47e-253a-4dc3-a99b-5258e5af28ba")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -9336,7 +11549,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4001"
 			(at 19.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9418,7 +11631,110 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
+		(lib_id "Diode:1N4003")
+		(at 115.57 151.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "515749dd-a648-4747-9bb0-1423c50bdd13")
+		(property "Reference" "D32"
+			(at 115.57 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 115.57 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 115.57 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 115.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 115.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 115.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc5a223d-6074-4a76-9e71-2ea1b45364ad")
+		)
+		(pin "2"
+			(uuid "b1548ae9-54d8-4a1c-8fcf-e895040e5c5a")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 30.48 25.4 270)
 		(unit 1)
@@ -9532,7 +11848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 76.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9747,6 +12063,214 @@
 			(project "4bit-adder"
 				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
 					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 115.57 198.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "595ae3e6-9b5f-40fd-bba9-5fe6ebd83a03")
+		(property "Reference" "D49"
+			(at 115.57 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 115.57 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 115.57 193.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 115.57 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 115.57 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 115.57 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "405fc85b-75c1-4364-8e9d-aa3833e94929")
+		)
+		(pin "2"
+			(uuid "b2733fa2-b9e8-49a5-bb1e-2f4dc5a4481f")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 115.57 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5aa04b70-abd7-4527-86af-3288e42fe7b5")
+		(property "Reference" "D29"
+			(at 115.57 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 115.57 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 115.57 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 115.57 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 115.57 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 115.57 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83df9d8a-a09c-4e1c-b0c4-87f4d283f5b2")
+		)
+		(pin "2"
+			(uuid "e056e58f-1f4c-4888-b28a-ac72a8fa6216")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -10011,7 +12535,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4001"
 			(at 59.69 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10270,7 +12794,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4001"
 			(at 19.05 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10374,7 +12898,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4001"
 			(at 99.06 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10450,6 +12974,110 @@
 			(project "4bit-adder"
 				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 76.2 219.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a3fee12-8e55-40b2-81a1-9b65e6ccccb0")
+		(property "Reference" "D35"
+			(at 76.2 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 76.2 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 76.2 215.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 76.2 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 76.2 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92ac5a62-6100-4679-baad-354efb8abe2e")
+		)
+		(pin "2"
+			(uuid "78995724-38db-4c91-a078-d081579b334f")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -10611,7 +13239,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 153.67 143.51 0)
+		(at 187.96 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10619,10 +13247,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e0348d9-409d-4c67-a0dc-d42e7af867bd")
 		(property "Reference" "#FLG01"
-			(at 153.67 141.605 0)
+			(at 187.96 201.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10633,7 +13260,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 153.67 138.43 0)
+			(at 187.96 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10643,7 +13270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 143.51 0)
+			(at 187.96 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10654,7 +13281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 143.51 0)
+			(at 187.96 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10665,7 +13292,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 153.67 143.51 0)
+			(at 187.96 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10921,7 +13548,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Wuerth_450301014042")
-		(at 195.58 24.13 90)
+		(at 190.5 212.09 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10932,7 +13559,7 @@
 		(dnp no)
 		(uuid "7aa0fefb-f93c-434c-a629-ae3dd5a47cc7")
 		(property "Reference" "SW1"
-			(at 189.23 24.13 0)
+			(at 196.85 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10943,7 +13570,7 @@
 			)
 		)
 		(property "Value" "SW_Wuerth_450301014042"
-			(at 189.23 24.13 0)
+			(at 196.85 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10954,7 +13581,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
-			(at 205.74 24.13 0)
+			(at 180.34 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10965,7 +13592,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
-			(at 203.2 24.13 0)
+			(at 182.88 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10976,7 +13603,7 @@
 			)
 		)
 		(property "Description" "Switch slide, single pole double throw"
-			(at 195.58 24.13 0)
+			(at 190.5 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11005,7 +13632,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 148.59 25.4 90)
 		(unit 1)
@@ -11329,7 +13955,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 110.49 41.91 270)
 		(unit 1)
@@ -11571,8 +14196,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4003")
+		(at 35.56 219.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "821b583b-943b-4ca4-b63b-20829c756bac")
+		(property "Reference" "D36"
+			(at 35.56 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 35.56 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 35.56 215.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 35.56 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 35.56 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 35.56 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae1ef74c-da74-4d86-a5bf-adfbd98228f6")
+		)
+		(pin "2"
+			(uuid "ebd01902-ade0-452f-b2e2-6e3eb2bd0e6b")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 200.66 29.21 270)
+		(at 187.96 203.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11582,7 +14311,7 @@
 		(dnp no)
 		(uuid "8424e932-7249-416c-8ccb-f5c9f7bf40ff")
 		(property "Reference" "#PWR058"
-			(at 196.85 29.21 0)
+			(at 191.77 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11593,7 +14322,7 @@
 			)
 		)
 		(property "Value" "SWV"
-			(at 199.644 27.432 90)
+			(at 184.404 205.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11604,7 +14333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 29.21 0)
+			(at 187.96 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11615,7 +14344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 29.21 0)
+			(at 187.96 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11626,7 +14355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 29.21 0)
+			(at 187.96 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11806,7 +14535,7 @@
 	)
 	(symbol
 		(lib_id "SR11-5V-200-2C:SR11-5V-200-2C-PH")
-		(at 157.48 116.84 0)
+		(at 157.48 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11817,7 +14546,7 @@
 		(fields_autoplaced yes)
 		(uuid "884a7dc4-73c4-473c-b329-edec96a325a7")
 		(property "Reference" "K9"
-			(at 157.734 105.41 0)
+			(at 157.734 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11828,7 +14557,7 @@
 			)
 		)
 		(property "Value" "SR11-5V-200-2C-PH"
-			(at 158.496 130.302 0)
+			(at 158.496 131.572 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11839,7 +14568,7 @@
 			)
 		)
 		(property "Footprint" "SR11_5V_200_2C:RELAY_SR11-5V-200-2C"
-			(at 159.512 139.446 0)
+			(at 159.512 140.716 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11851,7 +14580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11862,7 +14591,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11873,7 +14602,7 @@
 			)
 		)
 		(property "PARTREV" "1.01"
-			(at 157.734 146.558 0)
+			(at 157.734 147.828 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11885,7 +14614,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CUI Devices"
-			(at 157.226 144.018 0)
+			(at 157.226 145.288 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11897,7 +14626,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "SR11-12V-200-2C"
-			(at 157.988 141.986 0)
+			(at 157.988 143.256 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11909,7 +14638,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "11.70mm"
-			(at 157.48 136.906 0)
+			(at 157.48 138.176 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11921,7 +14650,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 158.496 134.874 0)
+			(at 158.496 136.144 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11999,7 +14728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 152.4 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12092,7 +14821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 34.29 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12152,7 +14881,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 72.39 25.4 270)
 		(unit 1)
@@ -12555,85 +15283,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 166.37 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "921fa81a-bea1-4675-9892-8dcc37f08fd7")
-		(property "Reference" "#PWR036"
-			(at 166.37 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2167e9df-9dd8-4323-98d6-1396039e192c")
-		)
-		(instances
-			(project "4bit-adder"
-				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 148.59 41.91 270)
 		(unit 1)
@@ -12793,6 +15442,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4003")
+		(at 157.48 125.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98b10a4a-8085-4ad9-88da-04832a640e65")
+		(property "Reference" "D28"
+			(at 157.48 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 157.48 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 157.48 121.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 157.48 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 157.48 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48fa145f-efab-44bf-a3cf-9122109f31a0")
+		)
+		(pin "2"
+			(uuid "6cd27239-8834-4416-b6b4-e149c9f57b4e")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 105.41 146.05 180)
 		(unit 1)
@@ -12942,6 +15695,110 @@
 			(project "4bit-adder"
 				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 35.56 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a615c54-fa27-40e5-872d-bb6003e6505e")
+		(property "Reference" "D47"
+			(at 35.56 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 35.56 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 35.56 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 35.56 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 35.56 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 35.56 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e88dba9-bea1-4541-969b-ec41c46b32a1")
+		)
+		(pin "2"
+			(uuid "76cfac33-4012-4126-bd2c-aee41f778fc2")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -13271,7 +16128,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 99.06 0)
+		(at 147.32 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13281,7 +16138,7 @@
 		(dnp no)
 		(uuid "a0d30a31-d791-4b02-b604-e24ac6e1fb5d")
 		(property "Reference" "#PWR068"
-			(at 147.32 105.41 0)
+			(at 147.32 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13292,7 +16149,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.844 102.616 0)
+			(at 148.844 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13302,7 +16159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 99.06 0)
+			(at 147.32 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13313,7 +16170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 99.06 0)
+			(at 147.32 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13324,7 +16181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 99.06 0)
+			(at 147.32 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13341,6 +16198,110 @@
 			(project "4bit-adder"
 				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 157.48 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a53aa483-6704-417a-8e84-6df1f721b501")
+		(property "Reference" "D26"
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 157.48 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50e0fe08-7192-40af-b5e4-7627472445b5")
+		)
+		(pin "2"
+			(uuid "0e9d5d30-c986-47c8-a893-fb5917b90681")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -13912,6 +16873,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4003")
+		(at 35.56 151.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0aa5b18-d2c5-4b89-ac46-f03cf7a5e3ee")
+		(property "Reference" "D42"
+			(at 35.56 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 35.56 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 35.56 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 35.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 35.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 35.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a5d6c41-ac7c-4c1f-bbc5-1dc629ebce47")
+		)
+		(pin "2"
+			(uuid "88e68dad-bcfb-4d16-8bbc-2d836bf76c74")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4007")
 		(at 59.69 83.82 0)
 		(unit 1)
@@ -13934,7 +16999,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4001"
 			(at 59.69 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -14049,7 +17114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 114.3 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14109,7 +17174,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 110.49 25.4 270)
 		(unit 1)
@@ -14191,7 +17255,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 147.32 119.38 90)
+		(at 147.32 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14201,7 +17265,7 @@
 		(dnp no)
 		(uuid "b6c84cd9-5403-442e-a545-ac06b1d0b4ac")
 		(property "Reference" "#PWR018"
-			(at 151.13 119.38 0)
+			(at 151.13 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14212,7 +17276,7 @@
 			)
 		)
 		(property "Value" "SWV"
-			(at 147.574 117.094 90)
+			(at 147.574 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14223,7 +17287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 119.38 0)
+			(at 147.32 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14234,7 +17298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 119.38 0)
+			(at 147.32 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14245,7 +17309,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 147.32 119.38 0)
+			(at 147.32 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14583,6 +17647,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4003")
+		(at 77.47 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c098a1a2-4a72-4554-896b-24b47d0d6682")
+		(property "Reference" "D45"
+			(at 77.47 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 77.47 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 77.47 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 77.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 77.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 77.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 77.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13cc5fa2-bae4-4ad3-b8f4-a30df6278045")
+		)
+		(pin "2"
+			(uuid "eefc2a94-f737-468c-9353-23e439ffaf49")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 76.2 0)
 		(unit 1)
@@ -14815,8 +17983,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 153.67 143.51 180)
+		(lib_id "Diode:1N4003")
+		(at 115.57 219.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14824,9 +17992,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ce833cc3-8203-4925-bfc2-e37bbc7bb1ce")
-		(property "Reference" "#PWR062"
-			(at 153.67 139.7 0)
+		(fields_autoplaced yes)
+		(uuid "ce673db9-0b62-496c-8467-85c0258761b2")
+		(property "Reference" "D34"
+			(at 115.57 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14836,19 +18005,8 @@
 				)
 			)
 		)
-		(property "Value" "SWV"
-			(at 155.448 144.018 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 143.51 0)
+		(property "Value" "1N4001"
+			(at 115.57 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14858,8 +18016,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 153.67 143.51 0)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 115.57 215.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14869,8 +18027,41 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 153.67 143.51 0)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 115.57 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 115.57 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 115.57 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14881,12 +18072,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "21477608-3aaa-4952-8e17-30944cb5e1b2")
+			(uuid "7f234daa-8798-47a9-8208-60bc204e572b")
+		)
+		(pin "2"
+			(uuid "4611cded-5125-404e-a853-253de200a173")
 		)
 		(instances
 			(project "4bit-adder"
 				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
-					(reference "#PWR062")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -14915,7 +18109,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4001"
 			(at 19.05 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15030,7 +18224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 38.1 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -15123,7 +18317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 152.4 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15344,7 +18538,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 30.48 17.78 270)
 		(unit 1)
@@ -15419,6 +18612,110 @@
 			(project "4bit-adder"
 				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4003")
+		(at 76.2 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e02405d5-94f1-4c51-880b-25e7419a0fc5")
+		(property "Reference" "D48"
+			(at 76.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 76.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 76.2 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 76.2 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 76.2 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8812108b-cde0-4b86-a154-4c6e28311bbf")
+		)
+		(pin "2"
+			(uuid "478aeaed-75f7-484c-be8e-3ac3e944e75d")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -15537,7 +18834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 76.2 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -15598,7 +18895,7 @@
 	)
 	(symbol
 		(lib_id "SR11-5V-200-2C:SR11-5V-200-2C-PH")
-		(at 157.48 91.44 0)
+		(at 157.48 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15609,7 +18906,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4acacdc-fc38-42ea-9bec-e8f33c47843a")
 		(property "Reference" "K8"
-			(at 157.734 80.01 0)
+			(at 157.734 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15620,7 +18917,7 @@
 			)
 		)
 		(property "Value" "SR11-5V-200-2C-PH"
-			(at 158.496 104.902 0)
+			(at 158.496 106.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15631,7 +18928,7 @@
 			)
 		)
 		(property "Footprint" "SR11_5V_200_2C:RELAY_SR11-5V-200-2C"
-			(at 159.512 114.046 0)
+			(at 159.512 115.316 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15643,7 +18940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 91.44 0)
+			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15654,7 +18951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 91.44 0)
+			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15665,7 +18962,7 @@
 			)
 		)
 		(property "PARTREV" "1.01"
-			(at 157.734 121.158 0)
+			(at 157.734 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15677,7 +18974,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CUI Devices"
-			(at 157.226 118.618 0)
+			(at 157.226 119.888 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15689,7 +18986,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "SR11-12V-200-2C"
-			(at 157.988 116.586 0)
+			(at 157.988 117.856 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15701,7 +18998,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "11.70mm"
-			(at 157.48 111.506 0)
+			(at 157.48 112.776 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15713,7 +19010,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 158.496 109.474 0)
+			(at 158.496 110.744 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15869,7 +19166,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 80.01 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -15962,7 +19259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 118.11 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -16023,7 +19320,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x04")
-		(at 191.77 54.61 270)
+		(at 194.31 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16033,7 +19330,7 @@
 		(dnp no)
 		(uuid "e95d21a4-1756-43bd-b88c-b62639238a84")
 		(property "Reference" "SW3"
-			(at 200.66 53.3399 90)
+			(at 185.42 55.8801 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16045,7 +19342,7 @@
 			)
 		)
 		(property "Value" "A"
-			(at 185.166 55.626 90)
+			(at 186.436 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16056,7 +19353,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx04_Piano_10.8x11.72mm_W7.62mm_P2.54mm"
-			(at 191.77 54.61 0)
+			(at 194.31 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16067,7 +19364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 54.61 0)
+			(at 194.31 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16078,7 +19375,7 @@
 			)
 		)
 		(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 191.77 54.61 0)
+			(at 194.31 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16199,6 +19496,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 190.5 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef227427-f39b-424a-a835-783c30c8a7e9")
+		(property "Reference" "C1"
+			(at 194.31 225.1709 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 194.31 226.4409 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
+			(at 191.4652 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 190.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "675af73a-be2d-4081-8449-9bdaa101a695")
+		)
+		(pin "2"
+			(uuid "461a3634-2873-4580-b40f-c386cf8984f4")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4007")
 		(at 99.06 83.82 0)
 		(unit 1)
@@ -16221,7 +19601,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4001"
 			(at 99.06 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -16480,7 +19860,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "1N4001"
 			(at 59.69 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16793,6 +20173,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4003")
+		(at 115.57 172.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f877db9d-0d77-4ec5-ac6b-c5bd86e0eaec")
+		(property "Reference" "D33"
+			(at 115.57 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 115.57 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 115.57 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 115.57 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V 1A General Purpose Rectifier Diode, DO-41"
+			(at 115.57 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 115.57 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e876fb7-f5ae-4ba0-bc5d-327e75fb91a8")
+		)
+		(pin "2"
+			(uuid "e515dc96-58cc-4f32-88f2-1b51cfaba1a8")
+		)
+		(instances
+			(project "4bit-adder"
+				(path "/43282da0-8fd8-4964-a1d7-562bab4450bf"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 76.2 29.21 270)
 		(unit 1)
@@ -16826,7 +20310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 76.2 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -17451,21 +20935,9 @@
 		)
 	)
 	(group ""
-		(uuid "6928009c-ab22-459b-93fc-886a31d71797")
-		(members "5f5873da-60f1-4a0f-a1fb-1ea6257ff32c" "b0d2193d-96ce-492d-8668-c35e6826ed4f"
-			"f3a39627-2cec-471c-b280-baa8068898cf"
-		)
-	)
-	(group ""
 		(uuid "c18cdefb-1594-4b0f-9363-2647ba6c4763")
 		(members "403b556f-41c3-4053-a339-d83ee99455e0" "6837b729-2a06-4e4f-a351-e62bd7cf7cca"
 			"f03cb90f-488e-43c7-befb-2af3284b4f94"
-		)
-	)
-	(group ""
-		(uuid "f514276a-2931-4e62-9c63-e557d6dffa53")
-		(members "4e258378-b67a-4ac0-a7b7-a9a48a40db84" "639b689f-e0e1-4a2b-828d-8cba150e4282"
-			"d4b459ce-d7b8-4206-815b-303fccc96d11"
 		)
 	)
 	(sheet_instances
